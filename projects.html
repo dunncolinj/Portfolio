@@ -10,7 +10,7 @@
 </head>
 
 <div class="container">
-  <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+  <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4  border-bottom border-dark">
     <a href="index.html" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
       <h4><b>Colin Joseph Dunn</b></h4>
     </a>
@@ -31,34 +31,41 @@
 </div>
 
 <body>
-  <h1>Project Showcase</h1>
-
-  <div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Hangman Console Game</h5>
-      <p class="card-text">A simple "Hangman" game written as a C# console application.</p>
-      <a href="https://github.com/dunncolinj/ConsoleGame" class="btn btn-primary">See on GitHub</a>
+  
+  <div class="row row-cols-1 row-cols-md-4 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="assets/hangman.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Hangman Console Game</h5>
+          <p class="card-text">A simple "Hangman" game written as a C# console application.</p>
+          <a href="https://github.com/dunncolinj/ConsoleGame" class="btn btn-outline-dark me-2">See on GitHub</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="assets/lostpetapi.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Lost Pet API</h5>
+          <p class="card-text">An n-tier .NET Web API application to serve as the back-end for a pet microchip registry.</p>
+          <a href="https://github.com/dunncolinj/FinalProject" class="btn btn-outline-dark me-2">See on GitHub</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="assets/petregistry.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pet Microchip Registry MVC</h5>
+          <p class="card-text">An n-tier MVC application providing front-end and back-end for a pet microchip registry.</p>
+          <a href="https://github.com/dunncolinj" class="btn btn-outline-dark me-2">See on GitHub</a>
+          <a href="#" target="_blank" class="btn btn-danger me-2">Go to Site</a>
+        </div>
+      </div>
     </div>
   </div>
 
-  <div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Lost Pet API</h5>
-      <p class="card-text">An n-tier .NET Web API application to serve as the back-end for a pet microchip registry.</p>
-      <a href="https://github.com/dunncolinj/FinalProject" class="btn btn-primary">See on GitHub</a>
-    </div>
-  </div>
-
-  <div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Pet Microchip Registry MVC</h5>
-      <p class="card-text">An n-tier MVC application providing front-end and back-end for a pet microchip registry.</p>
-      <a href="https://github.com/dunncolinj" class="btn btn-primary">See on GitHub</a>
-    </div>
-  </div>
 
 </body>
 </html>
