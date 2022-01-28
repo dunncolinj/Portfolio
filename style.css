@@ -1,1 +1,20 @@
- 
+/* Color Scheme */
+:root {
+--cultured: #f8f9faff;
+--cultured-2: #e9ecefff;
+--gainsboro: #dee2e6ff;
+--light-gray: #ced4daff;
+--cadet-blue-crayola: #adb5bdff;
+--slate-gray: #6c757dff;
+--davys-gray: #495057ff;
+--gunmetal: #343a40ff;
+--charleston-green: #212529ff; 
+}
+
+body {
+    background-color: var(--light-gray);
+}
+
+navbar {
+    background-color: var(--cultured-2);
+}
