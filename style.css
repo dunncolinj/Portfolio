@@ -12,9 +12,10 @@
 }
 
 body {
-    background-color: var(--light-gray);
+    background-color: var(--gainsboro);
 }
 
-navbar {
-    background-color: var(--cultured-2);
+header {
+    background-color: var(--slate-gray);
 }
+
