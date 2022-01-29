@@ -16,6 +16,9 @@ body {
 }
 
 header {
-    background-color: var(--slate-gray);
+    background-color: var(--light-gray);
 }
 
+h1 {
+    text-align: center;
+}
