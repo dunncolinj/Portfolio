@@ -28,35 +28,36 @@
       <a href="projects.html" class="btn btn-outline-dark me-2" role="button" aria-pressed="true">Projects</a>
     </div>
   </header>
+  <body>
+    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xyyoyyvo" method="post">
+      <div class="form-group">
+        <label for="full-name">Full Name</label>
+        <input type="text" name="name" class="form-control" id="full-name" aria-describedby="nameHelp" placeholder="First and Last Name">
+        <small id="nameHelp" class="form-text text-muted">Please provide your full name.</small>
+      </div>  
+      <div class="form-group">
+        <label for="email-address">E-mail Address</label>
+        <input type="email" name="_replyto" class="form-control" id="email-address" aria-describedby="emailHelp" placeholder="E-mail Address">
+        <small id="emailHelp" class="form-text text-muted">We will not put you on a mailing list without permission.</small>
+      </div>
+      
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <input type="text" name="_subject" class="form-control" id="email-subject" aria-describedby="subjectHelp" placeholder="Subject...">
+        <small id="subjectHelp" class="form-text text-muted">Please let us know the reason for your correspondence.</small>
+      </div>
+      
+      <div class="form-group">
+        <label for="message">Enter Your Message</label>
+        <textarea class="form-control" id="message" rows="6" placeholder="Your Message..."></textarea>
+      </div>
+      <hr />
+      </div>
+      <div class="text-center">
+        <button type="submit" class="btn btn-outline-dark">Submit</button>
+      </div>
+    </form>
+  </body>
+  
 </div>
-<body>
-  <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xyyoyyvo" method="post">
-    <div class="form-group">
-      <label for="full-name">Full Name</label>
-      <input type="text" name="name" class="form-control" id="full-name" aria-describedby="nameHelp" placeholder="First and Last Name">
-      <small id="nameHelp" class="form-text text-muted">Please provide your full name.</small>
-    </div>  
-    <div class="form-group">
-      <label for="email-address">E-mail Address</label>
-      <input type="email" name="_replyto" class="form-control" id="email-address" aria-describedby="emailHelp" placeholder="E-mail Address">
-      <small id="emailHelp" class="form-text text-muted">We will not put you on a mailing list without permission.</small>
-    </div>
-    
-    <div class="form-group">
-      <label for="subject">Subject</label>
-      <input type="text" name="_subject" class="form-control" id="email-subject" aria-describedby="subjectHelp" placeholder="Subject...">
-      <small id="subjectHelp" class="form-text text-muted">Please let us know the reason for your correspondence.</small>
-    </div>
-    
-    <div class="form-group">
-      <label for="message">Enter Your Message</label>
-      <textarea class="form-control" id="message" rows="6" placeholder="Your Message..."></textarea>
-    </div>
-    <hr />
-    </div>
-    <div class="text-center">
-      <button type="submit" class="btn btn-outline-dark">Submit</button>
-    </div>
-  </form>
-</body>
 </html>
